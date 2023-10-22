@@ -5,7 +5,10 @@ int main()
 {
     int num;//numero declarado
 
-    
+    for (int num = 1; num <= 100; num++)//inicializacion del ciclo for
+    {
+        
+    }
 
     return 0;
 }
