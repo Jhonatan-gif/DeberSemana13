@@ -7,7 +7,7 @@ int main()
 
     for (int num = 1; num <= 100; num++)//inicializacion del ciclo for
     {
-        
+        printf("%d\n", num);//impresion
     }
 
     return 0;
