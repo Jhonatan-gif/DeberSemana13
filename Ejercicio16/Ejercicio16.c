@@ -15,9 +15,12 @@ int main()
         for (i = 1; i <= n; i++) {
             suma += 3 * i;
         }
-    }
+    
     int promedio = suma / n;
 
+    printf("El promedio entero de los primeros %d múltiplos de 3 es: %d\n", n,
+           promedio); //Impresion de datos
+    }
 
     return 0;
 }
