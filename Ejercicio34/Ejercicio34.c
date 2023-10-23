@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    for (int i = 10; i >= 1; i--) {
-        
+    for (int n = 10; n >= 1; n--) {
+        printf("%d\n", n);
     }
 
     return 0;
