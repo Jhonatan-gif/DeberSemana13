@@ -20,6 +20,12 @@ int main() {
         numero /= 10;
     }
 
+    if (cantidad == 0) {
+        printf("El promedio entero de los dígitos es indeterminado (el número es 0).\n");
+    } else {
+        int promedio = suma / cantidad; // Calcula el promedio entero.
+        printf("El promedio entero de los dígitos de %d es: %d\n", numero_original, promedio);
+    }
 
     return 0;
 }
